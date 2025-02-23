@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+/* style.css */
+
+h1  {
+  border: 5px blue dashed;
+  font-size: 40px;
+  font-weight: bold;
+  width: 500px;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: red;
+  font-weight: 100;
+  font-size : 30px;
+  text-decoration: underline;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  color: green;
+  font-weight: 100;
+  font-size : 20px;
+  text-decoration: underline;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4 {
+  color: purple;
+  font-weight: 100;
+  font-size : 20px;
+  text-decoration: underline;
 }
-
-.App-link {
-  color: #61dafb;
+h5 {
+  color: orange;
+  font-weight: 100;
+  font-size : 20px;
+  text-decoration: underline;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h6 {
+  color: powderblue;
+  font-weight: 100;
+  font-size : 20px;
+  text-decoration: underline;
+}
+#header {
+  background-color: #070000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
+#footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #888888;
+}
+#content {
+  background-color: red#f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #888888;
+}
+#iphone {
+  background-color:yellow#f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #888888;
+}
+#macbook {
+  background-color: purple#f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #888888;
 }
